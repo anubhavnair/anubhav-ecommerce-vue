@@ -35,6 +35,11 @@ The `homeviewscomponents` folder contains all the key components used to build t
 
 ---
 
+![Ecommerce Homepage](./src/assets/home_view_assets/Screenshot%202025-05-03%20075825.png)
+![Ecommerce Homepage](./src/assets/home_view_assets/Screenshot%202025-05-03%20080031.png)
+![Ecommerce Homepage](./src/assets/home_view_assets/Screenshot%202025-05-03%20080124.png)
+![Ecommerce Homepage](./src/assets/home_view_assets/Screenshot%202025-05-03%20080144.png)
+
 ### 1. **HomeHeader.vue**
 - **Description**: Acts as the main container for all homepage sections. It imports and organizes all the components used in the homepage.
 - **Key Components Used**:
