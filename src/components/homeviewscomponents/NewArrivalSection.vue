@@ -6,10 +6,12 @@
     <div
       class="new-arrivals p-15 w-full flex flex-wrap   justify-evenly items-center gap-2"
     >
+    <RouterLink to="/productdetail/1">
       <div class="products">
         <div class="w-64 ">
           <img src="@/assets/home_view_assets/image_7.png" class="rounded-lg" />
         </div>
+     
         <div class="px-3 py-2">
           <h1 class="font-bold text-sm">T-SHIRT WITH TAPE DETAILS</h1>
           <p>
@@ -23,6 +25,7 @@
           <p class="font-bold">&#8377;100 /-</p>
         </div>
       </div>
+    </RouterLink>
       <div class="products">
         <div class="w-64 ">
           <img src="@/assets/home_view_assets/image_7.png" class="rounded-lg" />

@@ -18,6 +18,7 @@
       Shop.co. From casual wear to elegant dresses, every piece I've bought has
       exceeded my expectations.”
     </p>
+    <p class="mt-2 text-sm">Posted on:23-Aug-2024</p>
   </div>
 </template>
 

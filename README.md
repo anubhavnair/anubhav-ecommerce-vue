@@ -160,3 +160,110 @@ The `homeviewscomponents` folder contains all the key components used to build t
 ### Notes
 - All components are scoped to ensure styles do not leak into other parts of the application.
 - The `hide-scrollbar` utility is used in `OurHappyCustomer.vue` to hide horizontal scrollbars while maintaining scroll functionality.
+
+*****************************************************************************************
+## ProductDetailView Page
+
+The `productviewscomponents` folder contains all components related to the product detail page. Below is a detailed explanation of each component and its functionality.
+
+![Product Detail Page](./src/assets/productdetail_assets/Screenshot%202025-05-03%20232643.png)
+![Product Detail Page](./src/assets/productdetail_assets/Screenshot%202025-05-03%20232757.png)
+![Product Detail Page](./src/assets/productdetail_assets/Screenshot%202025-05-03%20232825.png)
+![Product Detail Page](./src/assets/productdetail_assets/Screenshot%202025-05-03%20232844.png)
+
+
+### 1. **ProductDetailView.vue**
+- **Description**: Main container view for the product detail page.
+- **Key Components**:
+  - `Navbar`: Navigation bar component
+  - `ProductDetail`: Main product detail component
+  - `Footer`: Footer component
+
+---
+
+### 2. **ProductDetail.vue**
+- **Description**: Displays detailed information about a specific product.
+- **Key Features**:
+  - Product image gallery with thumbnails
+  - Product title, rating, and price information
+  - Color selection with visual indicators
+  - Size selection (S, M, L)
+  - Quantity selector with increment/decrement functionality
+  - Add to Cart button
+  - Tab navigation for additional product information
+
+#### Tab Sections:
+1. **Product Details**
+   - Displays product specifications and information
+   - Shows materials, care instructions, and other details
+
+2. **Ratings & Reviews**
+   - Shows overall product rating
+   - Displays customer reviews
+   - Option to write new reviews
+
+3. **FAQs**
+   - Common questions and answers about the product
+   - Expandable/collapsible FAQ sections
+
+---
+
+### 3. **ProductReview.vue**
+- **Description**: Handles the display and management of product reviews.
+- **Key Features**:
+  - Shows total review count
+  - Filter and sort options
+  - Individual review cards with customer feedback
+  - "Write a Review" button
+  - Load more reviews functionality
+
+---
+
+### 4. **ProductFaq.vue**
+- **Description**: Manages frequently asked questions about the product.
+- **Key Features**:
+  - Collapsible FAQ sections
+  - Common questions about shipping, returns, and product care
+  - Interactive toggle for answers
+
+---
+
+### 5. **ProductsDetailRating.vue**
+- **Description**: Displays detailed rating information.
+- **Key Features**:
+  - Overall product rating
+  - Rating distribution
+  - Total number of reviews
+
+---
+
+### Styling
+- Uses Tailwind CSS for responsive design
+- Custom styling for interactive elements
+- Consistent theme with the main application
+
+---
+
+### User Interactions
+1. **Image Gallery**:
+   - Main product image
+   - Thumbnail navigation
+   - Image zoom on hover (if applicable)
+
+2. **Product Selection**:
+   - Color selection with visual feedback
+   - Size selection with button interface
+   - Quantity adjustment with +/- controls
+
+3. **Tab Navigation**:
+   - Smooth transitions between tabs
+   - Active tab indication
+   - Responsive layout for mobile views
+
+---
+
+### Notes
+- All components use scoped styling to prevent CSS conflicts
+- Fully responsive design for mobile and desktop views
+- Interactive elements have hover and focus states
+- Integrates with the main navigation and footer components
