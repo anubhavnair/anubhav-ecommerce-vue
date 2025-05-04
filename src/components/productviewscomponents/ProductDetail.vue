@@ -164,7 +164,7 @@
   </div>
   <section class="multiple sections">
     <div
-      class="flex gap-5 md:gap-20 md:justify-center justify-between font-roboto text-sm p-5"
+      class="flex gap-5 md:gap-20 md:justify-center justify-between font-roboto text-sm p-5 font-semibold"
     >
       <button
         :class="{ border_bottom: isActivedetail }"
@@ -200,7 +200,7 @@ export default {
   data() {
     return {
       // Your data here
-      quantity: 0,
+      quantity: 1,
       tab: "ProductReview",
       isActivedetail: false,
       isActiveReview: true,

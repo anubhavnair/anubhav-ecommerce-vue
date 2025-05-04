@@ -267,3 +267,85 @@ The `productviewscomponents` folder contains all components related to the produ
 - Fully responsive design for mobile and desktop views
 - Interactive elements have hover and focus states
 - Integrates with the main navigation and footer components
+
+*****************************************************************************************## CartView Documentation
+
+The `cartviewcomponents` folder contains components related to the shopping cart functionality. Below is a detailed explanation of each component and its features.
+
+![Cart Page](./src/assets/cartassets/Screenshot%202025-05-04%20190015.png)
+![Cart Page](./src/assets/cartassets/Screenshot%202025-05-04%20190035.png)
+
+### 1. **CartView.vue**
+- **Description**: Main container view for the shopping cart page.
+- **Key Components**:
+  - `Navbar`: Navigation bar component
+  - `CartDetail`: Main cart detail component
+  - `Footer`: Footer component
+
+---
+
+### 2. **CartDetail.vue**
+- **Description**: Displays the cart contents and order summary.
+- **Key Features**:
+  - Cart items list with product details
+  - Order summary with pricing breakdown
+  - Responsive layout for mobile and desktop views
+  - Checkout button with hover effects
+
+#### Order Summary Section:
+- Displays subtotal
+- Shows discount (if applicable)
+- Includes delivery fee
+- Calculates total amount
+- Checkout button with arrow icon
+
+---
+
+### 3. **CartProduct.vue**
+- **Description**: Individual cart item component with product details and controls.
+- **Key Features**:
+  - Product image display
+  - Product name and details
+  - Size and color information
+  - Quantity adjustment controls
+  - Delete item functionality
+  - Price information
+
+#### Product Controls:
+- **Quantity Adjuster**:
+  - Increment/decrement buttons
+  - Direct input of quantity
+  - Minimum quantity validation
+- **Delete Button**:
+  - Remove item from cart
+  - Visual feedback on hover
+
+---
+
+### Styling
+- Uses Tailwind CSS for responsive design
+- Custom hover effects on buttons
+- Consistent theme with main application
+- Responsive layout breakpoints:
+  - Mobile: Single column layout
+  - Desktop: Two-column layout with cart items and summary side by side
+
+---
+
+### User Interactions
+1. **Quantity Management**:
+   - Increase/decrease product quantity
+   - Direct quantity input
+   - Minimum quantity enforcement (cannot go below 1)
+
+2. **Cart Management**:
+   - Remove items from cart
+   - Update quantities
+   - Real-time price updates
+
+3. **Checkout Process**:
+   - Clear call-to-action button
+   - Hover effects for better user experience
+   - Summary of costs before proceeding
+
+---

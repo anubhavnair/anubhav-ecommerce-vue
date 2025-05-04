@@ -55,8 +55,8 @@
       </div>
     </div>
 
-    <div class="text-2xl flex gap-4 font-bold">
-      <i class="ri-shopping-cart-line"></i>
+    <div class="text-2xl flex gap-4 font-bold relative">
+       <RouterLink to='/cart'><i class="ri-shopping-cart-line"><span class=" absolute -top-2 left-3 text-sm">3</span></i></RouterLink>
       <i class="ri-user-line"></i>
     </div>
   </nav>
