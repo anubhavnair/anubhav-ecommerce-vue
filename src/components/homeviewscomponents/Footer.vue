@@ -1,7 +1,7 @@
 <template>
   <div class="w-full p-5 border-b-1 border-b-slate-400 relative md:mt-20">
     <div
-      class="md:absolute md:-top-10 md:left-100 bg-black w-full md:w-1/2 md:mx-auto min-h-[20rem] rounded-xl text-white p-5 md:flex md:justify-center md:gap-5 md:items-center md:min-h-[10vh]"
+      class="md:absolute md:-top-10  md:left-100 bg-black w-full md:w-1/2  min-h-[20rem] rounded-xl text-white p-5 md:flex md:justify-center md:gap-5 md:items-center md:min-h-[10vh] md:mx-auto"
     >
       <h1
         class="text-2xl font-bold font-roboto tracking-wide leading-8 text-center md:text-4xl"

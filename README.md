@@ -268,7 +268,8 @@ The `productviewscomponents` folder contains all components related to the produ
 - Interactive elements have hover and focus states
 - Integrates with the main navigation and footer components
 
-*****************************************************************************************## CartView Documentation
+*****************************************************************************************
+## CartView Documentation
 
 The `cartviewcomponents` folder contains components related to the shopping cart functionality. Below is a detailed explanation of each component and its features.
 
@@ -349,3 +350,61 @@ The `cartviewcomponents` folder contains components related to the shopping cart
    - Summary of costs before proceeding
 
 ---
+
+***********************************************************************************************************************************************
+## Categories Products Filter View Documentation
+
+The `categoryviewcomponents` folder contains components related to product filtering and display functionality. Below is a detailed explanation of each component and its features.
+
+![Categories Page](./src/assets/categoriesassets/Screenshot%202025-05-05%20071316.png)
+![Categories Page](./src/assets/categoriesassets/Screenshot%202025-05-05%20071345.png)
+
+### 1. **CategoryView.vue**
+- **Description**: Main container view for the category browsing page
+- **Key Components**:
+  - `Navbar`: Main navigation component
+  - `FilterProducts`: Filter sidebar component
+  - `ProductComponent`: Product card grid
+  - `Footer`: Footer component
+
+#### Layout Structure:
+```vue
+<div class="md:min-h-[90vh] md:flex md:px-20 md:py-10 mt-10 md:gap-10 w-full relative">
+  <!-- Filter Section -->
+  <div class="md:min-w-[20%]">
+    <FilterProducts />
+  </div>
+  
+  <!-- Products Grid -->
+  <div class="md:min-w-[80%]">
+    <ProductComponent />
+  </div>
+</div>
+```
+
+
+#### Code Example:
+```vue
+<script>
+export default {
+  name: "CategoryView",
+  components: {
+    Navbar,
+    FilterProducts,
+    ProductComponent,
+    Footer
+  },
+  data() {
+    return {
+      isFilterVisible: false
+    }
+  },
+  methods: {
+    handleFilterSection() {
+      this.isFilterVisible = !this.isFilterVisible
+    }
+  }
+}
+</script>
+```
+
