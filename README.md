@@ -1,7 +1,7 @@
 # Ecommerce-Frontend-vue-Anubhav
 
 ## Quick Links
-- 🚀 [Live Demo](https://ecommerce-assignment-vue.onrender.com)
+- 🚀 [Live Demo](https://https://anubhav-ecommerce-vue.onrender.com)
 
 ## Overview
 
