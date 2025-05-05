@@ -10,7 +10,7 @@
           designed to bring out your individuality and cater to your sense of
           style.
         </p>
-        <button class="bg-black text-white px-6 py-3 rounded-full my-5 w-full md:w-1/2  ">
+        <button class="bg-black hover:bg-white hover:text-black cursor-pointer outline-1 outline-black transition duration-500 text-white px-6 py-3 rounded-full my-5 w-full md:w-1/2  ">
           Shop Now
         </button>
         <div class=" flex justify-center xl:justify-start   items-center gap-5 flex-wrap">

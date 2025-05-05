@@ -1,13 +1,15 @@
 <template>
   <main>
-
+  <!-- {{ $route.params.id }} -->
+    <DiscountPopUp/>
     <Navbar/>
-    <ProductDetail/>
+    <ProductDetail :productId="$route.params.id"/>
    <Footer/>
   </main>
 </template>
 
 <script>
+import DiscountPopUp from '@/components/homeviewscomponents/DiscountPopUp.vue';
 import Footer from '@/components/homeviewscomponents/Footer.vue';
 import Navbar from '@/components/homeviewscomponents/Navbar.vue';
 import ProductDetail from '@/components/productviewscomponents/ProductDetail.vue';
@@ -17,7 +19,8 @@ export default {
   components:{
     Navbar,
     ProductDetail,
-    Footer
+    Footer,
+    DiscountPopUp
   },
   data() {
     return {

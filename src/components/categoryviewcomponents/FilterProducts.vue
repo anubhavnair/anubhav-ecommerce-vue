@@ -1,5 +1,5 @@
 <template>
-  <div class="border rounded-xl min-h-full bg-white">
+  <div class="border-1 border-slate-400 rounded-xl min-h-full bg-white">
     <!-- Header -->
     <div class="flex justify-between p-5 border-b border-slate-300">
       <h1 class="font-bold">Filters</h1>

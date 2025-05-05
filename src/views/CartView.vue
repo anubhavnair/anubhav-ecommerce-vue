@@ -1,4 +1,5 @@
 <template>
+  <DiscountPopUp/>
  <Navbar/>
  <CartDetail/>
  <Footer/>
@@ -6,6 +7,7 @@
 
 <script>
 import CartDetail from '@/components/cartviewcomponents/CartDetail.vue';
+import DiscountPopUp from '@/components/homeviewscomponents/DiscountPopUp.vue';
 import Footer from '@/components/homeviewscomponents/Footer.vue';
 import Navbar from '@/components/homeviewscomponents/Navbar.vue';
 
@@ -15,6 +17,7 @@ export default {
     Navbar,
     Footer,
     CartDetail,
+    DiscountPopUp,
   },
   data() {
     return {
