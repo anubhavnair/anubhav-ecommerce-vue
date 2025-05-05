@@ -39,7 +39,7 @@ export default {
   },
   async created() {
     try {
-      const response = await fetch('https://dummyjson.com/products/category/smartphones?limit=5');
+      const response = await fetch('https://dummyjson.com/products/category/mens-watches?limit=5');
       const data = await response.json();
       this.products = data.products.map(product => ({
         id: product.id,

@@ -1,5 +1,5 @@
 <template>
-  <div class="products border-1 border-zinc-300 rounded-2xl">
+  <div class="products border-1 border-zinc-300 rounded-2xl w-full">
     <div class="w-64 overflow-hidden  rounded-2xl">
       <img 
         :src="product.image"  

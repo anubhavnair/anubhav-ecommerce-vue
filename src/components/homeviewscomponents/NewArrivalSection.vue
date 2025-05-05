@@ -3,7 +3,7 @@
     <h1 class="text-4xl uppercase font-logo text-center tracking-wider">
       New Arrivals
     </h1>
-    <div class="new-arrivals p-15 w-full flex flex-wrap justify-evenly items-center gap-2">
+    <div id="newarrival" class="new-arrivals p-15 w-full flex flex-wrap justify-evenly items-center gap-2">
       <RouterLink 
         v-for="product in products" 
         :key="product.id"

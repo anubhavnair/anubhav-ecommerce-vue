@@ -61,9 +61,7 @@
               >
                 Product Detail
               </RouterLink>
-              <a class="py-2 hover:bg-gray-100 rounded-lg px-3">On Sale</a>
-              <a class="py-2 hover:bg-gray-100 rounded-lg px-3">New Arrivals</a>
-              <a class="py-2 hover:bg-gray-100 rounded-lg px-3">Brands</a>
+             
             </div>
           </div>
         </div>
@@ -100,9 +98,9 @@
         </h2>
 
         <!-- Other Links -->
-        <h2 class="cursor-pointer hover:text-gray-600">On Sale</h2>
+        <!-- <h2 class="cursor-pointer hover:text-gray-600">On Sale</h2>
         <h2 class="cursor-pointer hover:text-gray-600">New Arrivals</h2>
-        <h2 class="cursor-pointer hover:text-gray-600">Brands</h2>
+        <h2 class="cursor-pointer hover:text-gray-600">Brands</h2> -->
       </div>
 
       <!-- Search Bar -->
